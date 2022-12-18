@@ -1,0 +1,341 @@
+/*==================================================
+スライダーのためのcss
+===================================*/
+.slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
+    width:100%;
+    margin:0 auto;
+    padding-left: 0px;
+    display: none;
+}
+
+.slider.slick-initialized{
+    display: block;
+}
+
+.slider img {
+    width:100%;/*スライダー内の画像を横幅100%に*/
+    height:auto;
+}
+
+/*slickのJSで書かれるタグ内、スライド左右の余白調整*/
+
+.slider .slick-slide {
+    margin:0 0px;
+}
+
+/*矢印の設定*/
+
+/*戻る、次へ矢印の位置*/
+.slider .slick-prev, 
+.slider .slick-next {
+    position: absolute;/*絶対配置にする*/
+    top: 0%;
+    cursor: pointer;/*マウスカーソルを指マークに*/
+    outline: none;/*クリックをしたら出てくる枠線を消す*/
+    padding-top: 9%;
+    height: 100%;
+    width: 120px;
+    font: normal normal normal 90px/20px Devanagari MT;
+    color: #fff;
+    /* background-color: rgba(55, 55, 55, 0.6); */
+    background: #131313 0% 0% no-repeat padding-box;
+}
+
+
+
+.slider .slick-prev {/*戻る矢印の位置と形状*/
+    left: 0;
+    z-index: 1;
+}    
+
+.slider .slick-next {/*次へ矢印の位置と形状*/
+    right: 0%;
+    padding-left: 25px;
+}
+
+/*ドットナビゲーションの設定*/
+
+.slick-dots {
+    text-align:center;
+    margin:20px 0 0 0;
+}
+
+.slick-dots li {
+    display:inline-block;
+    margin:0 5px;
+}
+
+.slick-dots button {
+    border: none;
+    color: transparent;
+    outline: none;
+    width:12px;/*ドットボタンのサイズ*/
+    height:12px;/*ドットボタンのサイズ*/
+    display:block;
+    background:#fff;/*ドットボタンの色*/
+}
+
+.slick-dots .slick-active button{
+    background:#555;/*ドットボタンの現在地表示の色*/
+}
+
+
+/*==================================================
+===================================*/
+.slider_sp {/*横幅94%で左右に余白を持たせて中央寄せ*/
+    width: 100%;
+    margin: auto;
+    padding-left: 0px;
+    display: none;
+    margin-bottom: 30px;
+}
+
+.slider_sp.slick-initialized{
+    display: block;
+}
+
+.slider_sp img {
+    width:100%;/*スライダー内の画像を横幅100%に*/
+    height:auto;
+}
+
+/*slickのJSで書かれるタグ内、スライド左右の余白調整*/
+
+.slider_sp .slick-slide {
+    margin:0 0px;
+}
+
+/*矢印の設定*/
+
+/*戻る、次へ矢印の位置*/
+.slider_sp .slick-prev, 
+.slider_sp .slick-next {
+    position: absolute;/*絶対配置にする*/
+    top: 0%;
+    cursor: pointer;/*マウスカーソルを指マークに*/
+    outline: none;/*クリックをしたら出てくる枠線を消す*/
+    height: 100%;
+    width: 60px;
+    font: normal normal normal 50px/20px Devanagari MT;
+    color: #fff;
+    background-color: rgba(55, 55, 55, 0.6);
+    padding-top: 23%;
+}
+
+.slider_sp .slick-prev {/*戻る矢印の位置と形状*/
+    left: 0%;
+    z-index: 1;
+}    
+
+.slider_sp .slick-next {/*次へ矢印の位置と形状*/
+    right: 0%;
+    padding-left: 13px;
+}
+
+/*==================================================
+以下ブランドページのNEWS
+===================================*/
+.slider_news {/*横幅94%で左右に余白を持たせて中央寄せ*/
+    width:90%;
+    margin:0 20px 0 auto;
+    padding-left: 0px;
+    display: none;
+    margin-bottom: 100px;
+}
+
+.slider_news.slick-initialized{
+    display: block;
+}
+
+.slider_news img {
+    width:90%;/*スライダー内の画像を横幅100%に*/
+    height:auto;
+}
+
+/*slickのJSで書かれるタグ内、スライド左右の余白調整*/
+
+.slider_news .slick-slide {
+    margin:0 0px;
+}
+
+/*矢印の設定*/
+
+/*戻る、次へ矢印の位置*/
+.slider_news .slick-prev, 
+.slider_news .slick-next {
+    position: absolute;/*絶対配置にする*/
+    top: -16%;
+    cursor: pointer;/*マウスカーソルを指マークに*/
+    outline: none;/*クリックをしたら出てくる枠線を消す*/
+    height: 10%;
+    width: 120px;
+    font: normal normal normal 50px/20px Devanagari MT;
+    color: #fff;
+}
+
+.slider_news .slick-prev {/*戻る矢印の位置と形状*/
+    right: 35%;
+    z-index: 1;
+}    
+
+.slider_news .slick-next {/*次へ矢印の位置と形状*/
+    right: 25%;
+
+}
+
+/*==================================================
+以下ブランドページのNEWS
+===================================*/
+.slider_news_sp {/*横幅94%で左右に余白を持たせて中央寄せ*/
+    width:100%;
+    margin:0 20px 0 auto;
+    padding-left: 5%;
+    display: none;
+    margin-bottom: 100px;
+}
+
+.slider_news_sp.slick-initialized{
+    display: block;
+}
+
+.slider_news_sp img {
+    width:95%;/*スライダー内の画像を横幅100%に*/
+    height:auto;
+}
+
+/*slickのJSで書かれるタグ内、スライド左右の余白調整*/
+
+.slider_news_sp .slick-slide {
+    margin:0 0px;
+}
+
+/*矢印の設定*/
+
+/*戻る、次へ矢印の位置*/
+.slider_news_sp .slick-prev, 
+.slider_news_sp .slick-next {
+    position: absolute;/*絶対配置にする*/
+    top: 110%;
+    cursor: pointer;/*マウスカーソルを指マークに*/
+    outline: none;/*クリックをしたら出てくる枠線を消す*/
+    height: 5%;
+    width: 50px;
+    font: normal normal normal 50px/20px Devanagari MT;
+    color: #fff;
+}
+
+.slider_news_sp .slick-prev {/*戻る矢印の位置と形状*/
+    left: 5%;
+    z-index: 1;
+}    
+
+.slider_news_sp .slick-next {/*次へ矢印の位置と形状*/
+    right: 5%;
+}
+
+
+/*==================================================
+以下STYLEBOOK
+===================================*/
+.slider_stylebook {/*横幅94%で左右に余白を持たせて中央寄せ*/
+    width:100%;
+    margin:0 20px 0 auto;
+    padding-left: 0px;
+    display: none;
+    margin-bottom: 100px;
+}
+
+.slider_stylebook.slick-initialized{
+    display: block;
+}
+
+.slider_stylebook img {
+    width:100%;/*スライダー内の画像を横幅100%に*/
+    height:auto;
+}
+
+/*slickのJSで書かれるタグ内、スライド左右の余白調整*/
+
+.slider_stylebook .slick-slide {
+    margin:0 0px;
+}
+
+/*矢印の設定*/
+
+/*戻る、次へ矢印の位置*/
+.slider_stylebook .slick-prev, 
+.slider_stylebook .slick-next {
+    position: absolute;/*絶対配置にする*/
+    top: -16%;
+    cursor: pointer;/*マウスカーソルを指マークに*/
+    outline: none;/*クリックをしたら出てくる枠線を消す*/
+    height: 10%;
+    width: 120px;
+    font: normal normal normal 50px/20px Devanagari MT;
+    color: #fff;
+}
+
+
+
+.slider_stylebook .slick-prev {/*戻る矢印の位置と形状*/
+    right: 35%;
+    z-index: 1;
+}    
+
+.slider_stylebook .slick-next {/*次へ矢印の位置と形状*/
+    right: 25%;
+
+}
+
+/*==================================================
+以下STYLEBOOK
+===================================*/
+.slider_stylebook_sp {/*横幅94%で左右に余白を持たせて中央寄せ*/
+    width:100%;
+    margin:0 20px 0 auto;
+    padding-left: 0px;
+    display: none;
+    margin-bottom: 100px;
+}
+
+.slider_stylebook_sp.slick-initialized{
+    display: block;
+}
+
+.slider_stylebook_sp img {
+    width:100%;/*スライダー内の画像を横幅100%に*/
+    height:auto;
+}
+
+/*slickのJSで書かれるタグ内、スライド左右の余白調整*/
+
+.slider_stylebook_sp .slick-slide {
+    margin:0 0px;
+}
+
+/*矢印の設定*/
+
+/*戻る、次へ矢印の位置*/
+.slider_stylebook_sp .slick-prev, 
+.slider_stylebook_sp .slick-next {
+    position: absolute;/*絶対配置にする*/
+    top: 120%;
+    cursor: pointer;/*マウスカーソルを指マークに*/
+    outline: none;/*クリックをしたら出てくる枠線を消す*/
+    height: 10%;
+    width: 120px;
+    font: normal normal normal 50px/20px Devanagari MT;
+    color: #fff;
+}
+
+
+
+.slider_stylebook_sp .slick-prev {/*戻る矢印の位置と形状*/
+    right: 55%;
+    z-index: 1;
+}    
+
+.slider_stylebook_sp .slick-next {/*次へ矢印の位置と形状*/
+    right: -5%;
+
+}
